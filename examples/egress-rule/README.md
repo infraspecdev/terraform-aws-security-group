@@ -1,23 +1,3 @@
-# Example to create a egress rule for security group
-
-## Example tf.vars
-```
-region = "ap-south-1"
-
-rules = [
-    {
-      from_port        = 0
-      to_port          = 0
-      protocol         = "-1"
-      cidr_blocks      = ["0.0.0.0/0"]
-      ipv6_cidr_blocks = []
-    }
-]
-
-security_group_id = "sg-adsfasdfasdfa"
-
-```
-
 <!-- BEGIN_TF_DOCS -->
 # Example to create a egress rule for security group
 
